@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    scroll-behavior: smooth;
+    transition: 0.5s ease;
+}
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+::-webkit-scrollbar-track {
+    background: rgba(0, 0, 0, 0.849);
+    border-radius: 5px;
+  }
+  
+::-webkit-scrollbar-thumb {
+    background: blue;
+    border-radius: 5px;
+  }
+  
+  
+body, html {
+    overflow-x: hidden;
+  }  
+
+.navbar{
+    background-color: rgb(247, 245, 245); 
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    padding: 0.9rem  3rem;
+}
+
+
+.navbar .logo{
+    text-decoration: none;
+    color: blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+.navbar-nav{
+    margin-left: 63%;
+}
+.navbar .link{
+    color: rgb(0, 0, 255);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-weight: 500;
+    padding-left: 35px;
+}
+
+.navbar a:hover {
+    color: #b600bd;
+}
+
+.main-section{
+    padding: 0 14% ;
+    transition: 2s;
+}
+.main{
+    width:100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.849);
+}
+
+.main h2 {
+    color: rgb(247, 245, 245) ;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+.main h2 span{
+    color: rgb(0, 0, 255);
+    font-size: 3em;
+    font-weight: 500;
+    display: inline-block;
+    margin-top: 4%;
+} 
+ .main h3{
+    color: rgb(247, 245, 245) ;
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 4%;
+    margin-bottom: 4%;
+ }
+
+ .projects_btm{
+    color: rgb(247, 245, 245) ;
+    background-color: rgb(0, 0, 255);
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9rem 5%;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 5%;
+    transition: 0.7s ease;
+ }
+
+ .projects_btm:hover{
+    background-color: blue;
+    transform: scale(1.05);
+ }
+ .social_icons a{
+    color: rgb(247, 245, 245) ;
+    font-size: 1.7em;
+    padding-right: 4%;
+    transition: 0.2s ease;
+}
+.social_icons .facebook:hover{
+    color: rgb(39, 39, 255);
+}
+
+.social_icons .twitter:hover{
+    color: rgb(50, 135, 245);
+}
+
+.social_icons .instagram:hover{
+    color: rgb(255, 0, 242);
+}
+
+.social_icons .linkedin:hover{
+    color: rgb(32, 84, 255);
+}
+
+
+.title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    color: rgb(0, 0, 255);
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 50px;
+}
+.services-section{
+    padding:7% 20px 7% 20px;
+    transition: 2s;
+ }
+.card{
+    border: none;
+}
+
+.card-content{
+    display: inline-block;
+    background-color: white;
+    box-shadow: 0 5px 25px rgba(180, 173, 173, 0.87);
+    border-radius: 10px;
+    padding: 20px;
+    margin: 4% 3% 2% 3%;
+    transition: 0.7s ease;
+}
+
+.card-content:hover{
+    transform: scale(1.1);
+}
+
+.icon{
+    color: rgb(0, 0, 255);
+    font-size: 6em;
+    text-align: center;
+}
+
+.info{
+    text-align: center;
+}
+
+.info h3{
+    color: rgb(0, 0, 255);
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+}
+
+.projects-section{
+    padding: 8% 0 ;
+    transition: 2s;
+ }
+
+.projects{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color:rgba(0, 0, 0, 0.849);
+}
+.projects .content{
+    margin: 3% 0;
+}
+
+.projects .content .content-face{
+    margin-left: -20px;
+}
+.project_card{
+    background-color: rgb(255, 255, 255) ;
+    border: 1px solid white;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: 0.7s ease;
+    display: inline-block;
+}
+.project_card:hover{
+    transform: scale(1.1);
+}
+.project_card:hover .project_image{
+    opacity: 0.9;
+}
+
+.project_image img{
+    width: 100%;
+    
+}
+.project_info{
+    padding: 1em;
+}
+.project_dif{
+    font-size: 0,7em;
+    color: black;
+
+}
+.project_tittle{
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: 10px;
+}
+.veiw{
+    text-decoration: none;
+    color: blue;
+}
+.veiw:hover{
+    color: #b600bd;
+}
+
+.contact-section{
+    padding: 9% 20px;
+}
+
+.contact-section .title{
+    margin-bottom: 65px;
+}
+
+
+.footer{
+    background-color:rgba(0, 0, 0, 0.849);
+    color: wheat;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer_title{
+    font-size: 1.3em;
+    font-weight: 600;
+    margin-top: 10px;
+
+}
+.footer_title span{
+    color: rgb(0, 0, 255);
+    margin-right: 20px;
+}
+
+.footer .social_icons a{
+    font-size: 1.3em;
+    padding-right:12px;
+}
+.footer .social_icons .facebook:hover{
+    color: rgb(39, 39, 255);
+}
+
+.footer .social_icons .twitter:hover{
+    color: rgb(50, 135, 245);
+}
+
+.footer .social_icons .instagram:hover{
+    color: rgb(255, 0, 242);
+}
+
+.footer .social_icons .linkedin:hover{
+    color: rgb(32, 84, 255);
+}
+
+.a_social .info p {
+    color: black;
+}
+
+
+ @media (max-width:500px){
+    .main-section{
+        padding: 0 5% 0 5%;
+    }
+    .dad-main{
+        margin-left: 1.5rem;
+    }
+
+    .main h2{
+        font-size: 1em;
+        font-weight: 600;
+    }
+    .main h2 span{
+        font-size: 2.8rem;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    .main h3{
+        font-size:1.3em;
+        font-weight:700;
+        margin-bottom: 25px;
+    }
+
+    .projects_btm{
+        font-size: 0.9rem;
+        margin-bottom: 25px;
+    }
+
+    .social_icons a{
+        font-size: 1.3rem;
+    }
+
+} 
